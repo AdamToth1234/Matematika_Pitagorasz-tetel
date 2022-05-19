@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pitagorasz-tétel</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bekezdesek">
+            <h1>Pitagorasz-tétel</h1>
+            <p>A Pitagorasz-tétel vagy Pitagorasz tétele az euklideszi geometria egyik alapvető állítása. A
+                párhuzamossági posztulátum mellett az euklideszi geometria egyik központi tétele, nem-euklideszi
+                rendszerekben (mint pl. a Minkowski-geometria) nem is feltétlenül érvényes. Felfedezését és első
+                bizonyítását az i. e. 6. században élt matematikusnak és filozófusnak, Püthagorasznak tulajdonítják,
+                pedig
+                indiai, görög, kínai és babilóniai matematikusok már ismerték a tételt jóval Püthagorasz előtt, és a
+                kínaiak
+                bizonyítást is adtak rá.</p>
+            <h2>A tétel</h2>
+            <p>Bármely derékszögű háromszög leghosszabb oldalának (átfogójának) négyzete megegyezik a másik két oldal (a
+                befogók) négyzetösszegével. Tehát: ha egy háromszög derékszögű, akkor a leghosszabb oldalára emelt
+                négyzet
+                területe a másik két oldalra emelt négyzetek területének összegével egyenlő.<br>
+                A szokásos jelölésekkel (c az átfogó): a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>.</p>
+            <h2>A tétel megfordítása</h2>
+            <p>Ha egy háromszög két oldalhosszának négyzetösszege egyenlő a harmadik oldal hosszának négyzetével, akkor
+                a
+                háromszög derékszögű.</p>
+            <h2>A kalkurátor</h2>
+            <p>A kalkulátor úgy működik, hogy két mezőt kitöltünk annak függvényében, hogy melyik adatokat ismerjük.
+                Utána a
+                harmadik, üres cellát kis vagy nagy x-el kitöltük, ezzel jelevze, hogy azt az értéket keressük.</p>
+        </div>
+        <div class="inputs">
+            <div class="input">
+                <p class="b">A háromszög egyik befogója (a)</p>
+                <input type="text" id="a" value=""><br>
+                <p class="b">A háromszög másik befogója (b)</p>
+                <input type="text" id="b" value=""><br>
+                <p class="b">A háromszög átfogója (c)</p>
+                <input type="text" id="c" value="">
+            </div>
+        </div>
+        <div class="gomb">
+            <button onclick="szamitas()">Futtatás</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

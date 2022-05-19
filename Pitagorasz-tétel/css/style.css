@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(103, 44, 56);
+}
+
+.container{
+    background-color: darkcyan;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Sanchez';
+    text-align: justify;
+    box-shadow: -20px 20px 10px rgba(0, 0, 0,.5);
+    border: solid 3px black;
+    border-radius: 10px;
+}
+
+.b{
+    font-weight: bold;
+}
+
+input[type="text"]{
+    font-size: 24px;
+    padding: 4px
+}
+
+button{
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    padding: 10px 20px;
+    background-color: white;
+    border: 3px solid green;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+p{
+    font-size: 20px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin: 40px 0;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(222, 218, 211);
+    border-radius: 6px;
+}
+
+.gomb{
+    display: flex;
+    justify-content: center;
+}
+
+.bekezdesek{
+    background-color: rgb(222, 218, 211);
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+
+}
