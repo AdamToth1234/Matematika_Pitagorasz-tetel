@@ -1,5 +1,5 @@
 const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('menu')[0]
+const navbarLinks = document.getElementsByClassName('menu')
 const megoldasokButton = document.getElementsByClassName('gomb')[0]
 const feladatok = document.getElementsByClassName('feladatok-megoldas')[0]
 
