@@ -215,6 +215,7 @@ h3{
 .feladatkepek{
     float: right;
     display: flex;
+    margin-left: 30px;
 }
 
 .feladatok-megoldas{
