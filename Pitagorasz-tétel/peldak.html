@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js" defer></script>
+    <title>Példák</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bekezdesek">
+            <nav class="nav">
+                <div class="header">Pitagorasz-tétel</div>
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Megmagyarázása</a></li>
+                        <li><a href="peldak.html">Példák</a></li>
+                        <li><a href="kalkulator.html">Kalkulátor</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div>
+                <h1>Példák</h1>
+                <p align=center>Nézzünk meg néhány példafeladatot is, hogy könnyebb legyen megérteni, hogy is kell
+                    használni a
+                    tételt.</p>
+                <div class="feladatok">
+                    <div class="feladat">
+                        <h3>1. példa</h3>
+                        <img src="img/8TK_03_07abra.png" class="feladatkepek">
+                        <p>Egy négyzet alakú szobában úgy terítettünk le egy kisebb négyzet alakú szőnyeget, hogy minden
+                            csúcsa
+                            a szoba egy-egy szélénél található. A szoba oldalai 34 deciméter szélesek. Minden sarokban
+                            egy-egy
+                            egybevágó derékszögű háromszög maradt takaratlanul, melynek befogói 24 deciméter és 10
+                            deciméter
+                            hosszúságúak. Mekkora a szőnyeg területe? Mekkora a szőnyeg egy-egy oldalának hossza?</p>
+                    </div>
+                    <div class="feladat">
+                        <h3>2. példa</h3>
+                        <p>Egy <img src="img/8TK_03_08abra.png" class="feladatkepek">34 deciméter oldalhosszúságú,
+                            négyzet alakú szobában két négyzet alakú szőnyeget
+                            terítettünk
+                            le az ábrán látható módon. A két téglalap alakú lefedetlen padlórész oldalai 24 deciméter és
+                            10
+                            deciméter hosszúságúak. Mekkora a két szőnyeg területe összesen? Hasonlítsuk össze ezt az
+                            előző példában látott nagy szőnyeg területével!
+                        </p>
+                    </div>
+                    <div class="feladat">
+                        <h3>3. példa</h3>
+                        <p>Számítsuk ki a derékszögű háromszög <img src="img/8TK_03_11abra.png"
+                                class="feladatkepek">hiányzó oldalhosszát!</p>
+                        <p>Használjuk a Pitagorasz-tételt!</p>
+                        <ol>
+                            <li>a = 3 cm, b = 4 cm</li>
+                            <li>a = 5 cm, b = 7 cm</li>
+                            <li>a = 5 cm, c = 13 cm</li>
+                            <li>a = 10 cm, c = 21 cm</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="gomb">
+                    <button class="megoldasok">Megoldások</button>
+                </div>
+                <div class="feladatok-megoldas">
+                    <div class="feladat">
+                        <h3>1. példa</h3>
+                        <p>Készítsünk vázlatrajzot a szöveg alapján!
+
+                            A szoba minden oldala 34 deciméter hosszú, ezért a területe:
+
+                            T = 342 = 1156 (dm2).
+
+                            Minden sarokban van egy-egy derékszögű háromszög alakú rész, amelyet nem fed a szőnyeg.
+                            Mivel
+                            ismerjük a befogók hosszát, ezért egy ilyen rész területe: t = 10⋅242=120 (dm<sup>2</sup>).
+                            Ezek
+                            alapján a
+                            szőnyeg területe: T - 4 ⋅ t = 1156 - 4 ⋅ 120 = 676 (dm<sup>2</sup>).
+
+                            A négyzet alakú szőnyeg oldalhosszát jelölje c - vel. Ebből következik, hogy a területe:
+                            c<sup>2</sup>=676.
+                            Tehát a szőnyeg oldalhossza: c = 26 dm.</p>
+                    </div>
+                    <div class="feladat">
+                        <h3>2. példa</h3>
+                        <p>A négyzet alakú szőnyegek oldalhosszait ismerjük, ezért kiszámolhatjuk az együttes
+                            területüket:
+                            102 + 242 = 676 (dm<sup>2</sup>). Megfigyelhető, hogy a kapott terület egyenlő az előző
+                            példában látott nagy
+                            szőnyeg területével.</p>
+
+                        <p>Ez azonban nem meglepő! A szoba területéből két téglalap nincs szőnyeggel takarva. Ezek
+                            területe
+                            pontosan akkora, mint az előző példában látott négy derékszögű háromszög együttes területe.
+                            Vagyis mindkét esetben ugyanakkora részt takartunk le szőnyeggel.</p>
+                        </p>
+                    </div>
+                    <div class="feladat">
+                        <h3>3. példa</h3>
+                        <p>Számítsuk ki a derékszögű háromszög <img src="img/8TK_03_11abra.png"
+                                class="feladatkepek">hiányzó
+                            oldalhosszát!</p>
+                        <p>Használjuk a Pitagorasz-tételt!</p>
+                        <ol>
+                            <li>Mivel c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup>, ezért c<sup>2</sup> = 3<sup>2</sup>
+                                + 4<sup>2</sup> = 25. Vagyis c = √25 = 5 (cm).</li>
+                            <li>Mivel c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup>, ezért c<sup>2</sup> = 5<sup>2</sup>
+                                + 7<sup>2</sup> = 74. Vagyis c = √74 ≈ 8,6 (cm).</li>
+                            <li>Mivel c<sup>2</sup> = b<sup>2</sup> + b<sup>2</sup>, ezért c<sup>2</sup> =
+                                13<sup>2</sup> + 5<sup>2</sup> = 144. Vagyis c = √144 = 12 (cm).</li>
+                            <li>Mivel c<sup>2</sup> = b<sup>2</sup> + b<sup>2</sup>, ezért c<sup>2</sup> =
+                                21<sup>2</sup> + 10<sup>2</sup> = 341. Vagyis c = √341 ≈ 18,5 (cm).</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

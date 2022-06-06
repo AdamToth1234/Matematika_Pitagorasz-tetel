@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js" defer></script>
+    <title>Kalkulátor</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bekezdesek">
+            <nav class="nav">
+                <div class="header">Pitagorasz-tétel</div>
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Megmagyarázása</a></li>
+                        <li><a href="peldak.html">Példák</a></li>
+                        <li><a href="kalkulator.html">Kalkulátor</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="magyarazas">
+                <h2>A kalkulátor</h2>
+                <p>A kalkulátor úgy működik, hogy két mezőt kitöltünk annak függvényében, hogy melyik adatokat ismerjük.
+                    Utána a
+                    harmadik, üres cellát kis vagy nagy x-el kitöltük, ezzel jelezve, hogy azt az értéket keressük.</p>
+            </div>
+            <div class="inputs">
+                <div class="kepek">
+                    <img src="img/images.png" alt="Derékszügű háromszög" title="Derékszügű háromszög">
+                </div>
+                <div class="input">
+                    <p class="b">A háromszög egyik befogója (a)</p>
+                    <input type="text" id="a" value=""><br>
+                    <p class="b">A háromszög másik befogója (b)</p>
+                    <input type="text" id="b" value=""><br>
+                    <p class="b">A háromszög átfogója (c)</p>
+                    <input type="text" id="c" value="">
+                </div>
+                <div class="kepek">
+                    <img src="img/images.jpg" alt="Derékszügű háromszög" title="Derékszügű háromszög">
+                </div>
+            </div>
+            <div class="gomb">
+                <button onclick="szamitas()" class="futtatas">Futtatás</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
